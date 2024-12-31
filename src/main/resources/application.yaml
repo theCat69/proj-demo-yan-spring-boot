@@ -1,0 +1,13 @@
+spring:
+  application:
+    name: demo-project-yan
+  datasource:
+    url: "jdbc:postgresql://localhost:5431/"
+    username: postgres
+    password: pass
+  jpa:
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.PostgreSQLDialect
+    hibernate:
+      ddl-auto: validate
