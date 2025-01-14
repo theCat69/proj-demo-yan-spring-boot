@@ -2,7 +2,7 @@ spring:
   application:
     name: demo-project-yan
   datasource:
-    url: "jdbc:postgresql://localhost:5431/"
+    url: "jdbc:postgresql://localhost:5430/"
     username: postgres
     password: pass
   jpa:
@@ -11,3 +11,5 @@ spring:
         dialect: org.hibernate.dialect.PostgreSQLDialect
     hibernate:
       ddl-auto: validate
+
+#dfsdfs
